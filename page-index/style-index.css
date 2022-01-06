@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@700&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*Ajustando texto para responsividade*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background: linear-gradient(115.23deg, #031859 37.12%, #030C87 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-paragraph {
+    text-decoration: none;
+    color: #031859;
+    font-weight: 700;
+
+}
+
+.link-paragraph:hover{
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.link-footer{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.initial-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 20px;
+    border-bottom: 0.4px rgba(255, 255, 255, 0.692) solid;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.initial-menu-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.initial-menu-link-page{
+    color: white;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4.0rem 0rem 4.0rem 0rem ;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.presentation-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-presentation {
+    font-family: 'Poppins', sans-serif;
+    color: #FFE500;
+    font-size: 6.0rem;
+    line-height: 6.0rem;
+}
+
+.slogan-presentation {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-top: 4vh;
+}
+
+.image-presentation {
+    width: 30vw;
+}
+
+/*Parte Principal*/
+
+
+/*Menu de Seleção Simples*/
+.selection-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.selection-menu-left{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #010871 ;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 20.41vw;
+    
+    
+}
+
+.selection-menu-center{
+    margin: 10px;
+    
+}
+
+.selection-menu-image{
+    border-radius: 20px;
+    max-width: 20.41vw;
+}
+
+.selection-menu-right{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #010871 ;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 20.41vw;
+    
+}
+
+.selection-menu-title {
+    color: #031859;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 4.0rem;
+}
+
+.selection-menu-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.selection-menu-list{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 1.8rem;
+}
+
+.selection-menu-button{
+    background-color: #031859;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    
+}
+
+.selection-menu-button:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+/*Conteúdos*/
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    padding-top: 50px;
+    border-top: 2px solid #031859;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 3.0rem;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+    line-height: 3.0rem;
+
+}
+
+.content-image-left {
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.content-image-right {
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+.content-title{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #031859;
+}
+
+.content-paragraph {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Rodapé*/
+
+.footer-final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #031859;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    height: 8vh;
+    
+}
+
+/*Telas Maiores*/
+@media (min-width: 1600px){
+    .title-presentation {
+        font-size: 60px;
+    }
+
+    .slogan-presentation {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .image-presentation {
+        width: 480px;
+    }
+
+    .selection-menu-left {
+        width: 326.56px;
+    }
+
+    .selection-menu-right {
+        width: 326.56px;
+    }
+
+    .selection-menu-image {
+        width: 326.56px;
+    }
+}
+/*Laptop Grande*/
+@media (max-width: 1460px){
+    .initial-menu{
+        font-size: 1.6rem;
+    }
+    
+    .image-presentation {
+        width: 40vw;
+    }
+    /*Menu de seleção*/
+    .selection-menu-title {
+        font-size: 1.8rem;
+        line-height: 1.7rem;
+    }
+    .selection-menu-paragraph{
+        font-size: 1.4rem;
+    }
+
+    .selection-menu-button {
+        font-size: 1.4rem;
+        padding: 10px;
+
+    }
+
+    .selection-menu-list{
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    /*Texto do conteúdo*/
+    .content-title {
+        font-size: 1.8rem;
+        line-height: 2.0rem;
+    }
+
+    .content-paragraph {
+        font-size: 1.4rem;
+    }
+
+    /*Imagens do conteúdo*/
+    .content-image-left {
+        width: 33.42vw;
+    }
+
+    .content-image-right {
+        width: 33.42vw;
+    }
+}
+/*Laptop Normal*/
+@media (max-width: 1060px){
+    .selection-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selection-menu-left{
+        width: 90%;
+        max-width: 80vw;
+    }
+
+    .selection-menu-center{
+        display: none;
+    }
+
+    .selection-menu-right{
+        width: 90%;
+        max-width: 80vw;
+    }
+
+}
+/*Tablet*/
+@media (max-width: 768px){
+    /*Menu hamburguer*/
+    
+    .initial-menu-navigation {
+        display: none;
+    }
+    
+    .one,.two,.three {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+    
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+
+    /*fullscreen*/
+    .menu-section.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+        
+        background-color: #031859;
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on .initial-menu-navigation {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 5vw;
+        top: 20px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on .initial-menu-navigation .initial-menu-list{
+        display: block;
+        text-align: center;
+        
+    }
+
+    .initial-menu-link-page {
+        transition-duration: 0.5s;
+        font-size: 2.5rem;
+        line-height: 8rem;
+        font-weight: 400;
+    }
+
+
+
+    /*Texto de Apresnetação*/
+    .title-presentation {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .slogan-presentation {
+        font-size: 1.8rem;
+    }
+}
+/*Celular Grande*/
+
+@media(max-width: 600px){
+    .title-presentation {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .slogan-presentation {
+        font-size: 16px;
+    }
+
+    .content-left,.content-right {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .content-image-left,.content-image-right {
+        width: 90%;
+        max-width: 300px;
+        margin: 0px;
+        margin-bottom: 30px;
+        
+    }
+
+    .content-title {
+        margin-bottom: 10px;
+    }
+
+    .footer-final{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 500px){
+    .title-presentation {
+        display: none;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slogan-presentation {
+        text-align: center;
+        margin: 0;
+        font-size: 2.08rem;
+    }
+
+    .image-presentation {
+        display: flex;
+        width: 300px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
+    }
+
+    .initial-menu-paragraph {
+        font-size: 1.4rem;
+    }
+
+    /*Conteúdos*/
+
+}
+
+@media (max-width: 425px){
+    .selection-menu-center{
+        display: flex;
+        
+        
+    }
+
+    .selection-menu-image{
+        max-width: 79.41vw;
+    }
+
+}
