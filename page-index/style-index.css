@@ -502,6 +502,8 @@ main{
         text-align: center;
         margin: 0;
         font-size: 2.08rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
     }
 
     .image-presentation {
